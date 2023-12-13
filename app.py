@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return "<title>turtle's test site</title> <h1>turtle's test site</h1> <h3>a site that turtle uses to test things</h3> <h4>yeah</h4>"
     
 @app.route("/<name>/")
 def user(name):
