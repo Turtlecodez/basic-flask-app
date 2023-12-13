@@ -1,7 +1,6 @@
-from flask import Flask
+from flask import Flask, render_template
 import redirect
 import url_for
-import render_template
 import os
 
 app = Flask(__name__)
