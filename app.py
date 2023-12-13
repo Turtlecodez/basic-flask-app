@@ -15,3 +15,6 @@ def hi():
 def user(name):
     return f"<h1>error</h1> you silly goober, the page {name} probably doesn't exist (or the creator did a dum)"
 
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
+
