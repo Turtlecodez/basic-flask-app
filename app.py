@@ -6,10 +6,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return "<h1>HELLO THERE</h1> <h3>you are viewing my website</h3>"
-
-@app.route('hi')
-def hi():
-    return "hello"
     
 @app.route("/<name>")
 def user(name):
@@ -17,4 +13,3 @@ def user(name):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
-
