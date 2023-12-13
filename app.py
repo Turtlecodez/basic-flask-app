@@ -1,13 +1,11 @@
 from flask import Flask, render_template
-import redirect
-import url_for
 import os
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<title>turtle's test site</title> <h1>turtle's test site</h1> <h3>a site that turtle uses to test things</h3> <h4>yeah</h4>"
+    return "index.html"
     
 @app.route("/<name>/")
 def user(name):
