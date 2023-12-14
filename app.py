@@ -9,7 +9,7 @@ def index():
     
 @app.route("/<name>/")
 def user(name):
-    return f"<h1>error</h1> you silly goober, the page {name} probably doesn't exist (or the creator did a dum)"
+    return f"<h1 style="text-align:center">error</h1> <h3>the page {name} does not exist, or Turtlecodez did a dum.</h3> <a href="https://turtlecodez.cyclic.app/">Back to Homepage</a>"
 
 @app.route("/games/")
 def games():
