@@ -12,6 +12,8 @@ def index():
 def user(name):
     return f"<h1>error</h1> you silly goober, the page {name} probably doesn't exist (or the creator did a dum)"
 
+@app.route("/games/")
+
 @app.route("/admin/")
 def admin():
     return "youre not an admin >:("
