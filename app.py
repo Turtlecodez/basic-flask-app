@@ -9,7 +9,7 @@ def index():
     
 @app.route("/<name>/")
 def user(name):
-    return f"<h1 style="text-align:center">error</h1> <h3>the page {name} does not exist, or Turtlecodez did a dum.</h3>"
+    return f"<h1>error</h1> <h3>the page {name} does not exist, or Turtlecodez did a dum.</h3> <p>go back to the homepage</p>"
 
 @app.route("/games/")
 def games():
